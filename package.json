@@ -7,9 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --token=\"123\" --team=\"team-test-repo\"",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
+    "lint": "turbo run lint --token=\"123\" --team=\"team-test-repo\"",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
